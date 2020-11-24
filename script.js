@@ -39,7 +39,9 @@ function createNavItem() {
 		content += `<li class='list-item elem-${id}'>
 		<a data-id="${id}" class="list-link" href="#">${name}</a>
 		</li>`
+		
 	})
+	
 	ul.innerHTML = content;
 }
 
@@ -67,4 +69,4 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	  target.parentNode.classList.add('active');
 	  displayFact(target);
 	});
- });
+});

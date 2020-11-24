@@ -141,7 +141,6 @@ label {
 }
 
 .list-item {
-  font-size: 20px;
   font-style: italic;
   font-family: "Witcher", sans-serif;
   font-size: 30px;
@@ -168,4 +167,17 @@ label {
   font-style: italic;
   text-align: center;
   width: 50%;
+}
+
+.elem-1.active,
+.elem-2.active,
+.elem-3.active,
+.elem-4.active {
+  font-size: 37px;
+}
+
+.elem-1.active {
+  background-image: url(../img/background/ciri.jpg);
+  width: 100vw;
+  height: 100vh;
 }
