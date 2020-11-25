@@ -36,7 +36,7 @@ function generateText(){
 function createNavItem() {
 	let content = '';
 	heroes.forEach(({id, name}) => {
-		content += `<li class='list-item elem-${id}'>
+		content += `<li class='list-item'>
 		<a data-id="${id}" class="list-link" href="#">${name}</a>
 		</li>`
 		

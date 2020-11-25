@@ -172,9 +172,6 @@ label {
   width: 50%;
 }
 
-.elem-1.active,
-.elem-2.active,
-.elem-3.active,
-.elem-4.active {
+.active {
   font-size: 37px;
 }
