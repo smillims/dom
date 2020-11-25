@@ -115,7 +115,7 @@ label {
 .bg {
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/background/geralt.jpg);
+  background-image: url(../img/background/background.jpg);
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
@@ -152,6 +152,9 @@ label {
   padding: 20px;
   margin-left: 20px;
 }
+.list-link:active {
+  background-color: rgba(250, 61, 37);
+}
 .list-link:hover {
   background-color: rgba(219, 101, 37);
 }
@@ -160,7 +163,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .content-text {
   font-size: 18px;
@@ -174,10 +177,4 @@ label {
 .elem-3.active,
 .elem-4.active {
   font-size: 37px;
-}
-
-.elem-1.active {
-  background-image: url(../img/background/ciri.jpg);
-  width: 100vw;
-  height: 100vh;
 }
