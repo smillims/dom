@@ -29,25 +29,6 @@ const nav = document.querySelector('.navbar');
 const ul = document.querySelector('.list');
 const container = document.querySelector('.container');
 
-//function createNavItem() {
-//	let content = '';
-//	const hey = heroes.map(({id, name}) => {
-//		content += `<li class='list-item'>
-//		<a data-id="${id}" class="list-link" href="#">${name}</a>
-//		</li>`
-//	}).join('');
-	
-//	ul.innerHTML = content;
-//}
-
-//const createNavItem = () => {
-//	ul.innerHTML = heroes.map(({id, name}) => (
-//		`<li class='list-item'>
-//			<a data-id="${id}" class="list-link" href="#">${name}</a>
-//		</li>`
-//	)).join('');
-//}
-
 const createNavItem = () => {
 	ul.innerHTML = heroes.map(({id, name}) => (
 		`<li class='list-item'>
